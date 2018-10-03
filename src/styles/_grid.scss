@@ -2,11 +2,15 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 .container {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
   @include media-query($small) {
     max-width: 540px;
   }
@@ -19,6 +23,80 @@
 }
 .align-items-center {
   align-items: center;
+}
+.grid-10,
+.grid-11,
+.grid-12,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9,
+.grid-auto,
+.grid-lg,
+.grid-lg-1,
+.grid-lg-10,
+.grid-lg-11,
+.grid-lg-12,
+.grid-lg-2,
+.grid-lg-3,
+.grid-lg-4,
+.grid-lg-5,
+.grid-lg-6,
+.grid-lg-7,
+.grid-lg-8,
+.grid-lg-9,
+.grid-lg-auto,
+.grid-md,
+.grid-md-1,
+.grid-md-10,
+.grid-md-11,
+.grid-md-12,
+.grid-md-2,
+.grid-md-3,
+.grid-md-4,
+.grid-md-5,
+.grid-md-6,
+.grid-md-7,
+.grid-md-8,
+.grid-md-9,
+.grid-md-auto,
+.grid-sm,
+.grid-sm-1,
+.grid-sm-10,
+.grid-sm-11,
+.grid-sm-12,
+.grid-sm-2,
+.grid-sm-3,
+.grid-sm-4,
+.grid-sm-5,
+.grid-sm-6,
+.grid-sm-7,
+.grid-sm-8,
+.grid-sm-9,
+.grid-sm-auto,
+.grid-xl,
+.grid-xl-1,
+.grid-xl-10,
+.grid-xl-11,
+.grid-xl-12,
+.grid-xl-2,
+.grid-xl-3,
+.grid-xl-4,
+.grid-xl-5,
+.grid-xl-6,
+.grid-xl-7,
+.grid-xl-8,
+.grid-xl-9,
+.grid-xl-auto {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .grid-2 {
   flex: 0 0 16.667%;
