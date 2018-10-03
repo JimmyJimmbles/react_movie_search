@@ -1,8 +1,13 @@
+@import "tools/_mixins.scss";
+
 .img-responsive {
   max-width: 100%;
   display: block;
   height: auto;
 }
 .header-logo {
-  max-width: 8em;
+  width: 6em;
+  @include media-query($medium) {
+    width: 100%;
+  }
 }
