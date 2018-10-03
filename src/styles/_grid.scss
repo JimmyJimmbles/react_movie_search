@@ -1,0 +1,21 @@
+@import "tools/_mixins.scss";
+@import "_variables.scss";
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.col-12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+.col-sm-6 {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+@include media-query($small) {
+  .col-sm-6 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
